@@ -1,0 +1,111 @@
+[submodule "micropython"]
+	path = micropython
+	url = https://github.com/micropython/micropython.git
+	branch = v1.20.0
+[submodule "microros/embeddedRTPS"]
+	path = microros/embeddedRTPS
+	url = https://github.com/micro-ROS/embeddedRTPS
+	branch = galactic
+[submodule "microros/rmw_embeddedrtps"]
+	path = microros/rmw_embeddedrtps
+	url = https://github.com/micro-ROS/rmw_embeddedrtps
+	branch = galactic
+[submodule "microros/Micro-XRCE-DDS-Client"]
+	path = microros/Micro-XRCE-DDS-Client
+	url = https://github.com/eProsima/Micro-XRCE-DDS-Client
+	branch = ros2
+[submodule "microros/rmw_microxrcedds"]
+	path = microros/rmw_microxrcedds
+	url = https://github.com/micro-ROS/rmw_microxrcedds
+	branch = galactic
+[submodule "microros/micro-CDR"]
+	path = microros/micro-CDR
+	url = https://github.com/eProsima/micro-CDR
+	branch = ros2
+[submodule "microros/rcl"]
+	path = microros/rcl
+	url = https://github.com/micro-ROS/rcl
+	branch = galactic
+[submodule "microros/rclc"]
+	path = microros/rclc
+	url = https://github.com/ros2/rclc
+	branch = galactic
+[submodule "microros/rcutils"]
+	path = microros/rcutils
+	url = https://github.com/micro-ROS/rcutils
+	branch = galactic
+[submodule "microros/micro_ros_msgs"]
+	path = microros/micro_ros_msgs
+	url = https://github.com/micro-ROS/micro_ros_msgs
+	branch = galactic
+[submodule "microros/rosidl_typesupport"]
+	path = microros/rosidl_typesupport
+	url = https://github.com/micro-ROS/rosidl_typesupport
+	branch = galactic
+[submodule "microros/rosidl_typesupport_microxrcedds"]
+	path = microros/rosidl_typesupport_microxrcedds
+	url = https://github.com/micro-ROS/rosidl_typesupport_microxrcedds
+	branch = galactic
+[submodule "microros/src/rosidl"]
+	path = microros/src/rosidl
+	url = https://github.com/ros2/rosidl
+	branch = galactic
+[submodule "microros/rcl_interfaces"]
+	path = microros/rcl_interfaces
+	url = https://github.com/ros2/rcl_interfaces
+	branch = galactic
+[submodule "microros/rosidl_defaults"]
+	path = microros/rosidl_defaults
+	url = https://github.com/ros2/rosidl_defaults
+	branch = galactic
+[submodule "microros/unique_identifier_msgs"]
+	path = microros/unique_identifier_msgs
+	url = https://github.com/ros2/unique_identifier_msgs
+	branch = galactic
+[submodule "microros/common_interfaces"]
+	path = microros/common_interfaces
+	url = https://github.com/ros2/common_interfaces
+	branch = galactic
+[submodule "microros/rmw_implementation"]
+	path = microros/rmw_implementation
+	url = https://github.com/ros2/rmw_implementation
+	branch = galactic
+[submodule "microros/rcl_logging"]
+	path = microros/rcl_logging
+	url = https://github.com/ros2/rcl_logging
+	branch = galactic
+[submodule "microros/ros2_tracing"]
+	path = microros/ros2_tracing
+	url = https://gitlab.com/micro-ROS/ros_tracing/ros2_tracing
+	branch = galactic
+[submodule "microros/micro_ros_utilities"]
+	path = microros/micro_ros_utilities
+	url = https://github.com/micro-ROS/micro_ros_utilities
+	branch = galactic
+[submodule "microros-dev/ament_cmake"]
+	path = microros-dev/ament_cmake
+	url = https://github.com/ament/ament_cmake
+	branch = galactic
+[submodule "microros-dev/ament_lint"]
+	path = microros-dev/ament_lint
+	url = https://github.com/ament/ament_lint
+	branch = galactic
+[submodule "microros-dev/ament_package"]
+	path = microros-dev/ament_package
+	url = https://github.com/ament/ament_package
+	branch = galactic
+[submodule "microros-dev/googletest"]
+	path = microros-dev/googletest
+	url = https://github.com/ament/googletest
+	branch = galactic
+[submodule "microros-dev/ament_cmake_ros"]
+	path = microros-dev/ament_cmake_ros
+	url = https://github.com/ros2/ament_cmake_ros
+	branch = galactic
+[submodule "microros-dev/ament_index"]
+	path = microros-dev/ament_index
+	url = https://github.com/ament/ament_index
+	branch = galactic
+[submodule "microros/rosidl"]
+	path = microros/rosidl
+	url = https://github.com/ros2/rosidl
