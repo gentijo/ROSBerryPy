@@ -11,7 +11,7 @@ RUN apt -y update && \
     apt -y upgrade && \
     apt -y install \
         build-essential \
-	python3 pip \
+	    python3 pip \
         emacs nano curl gnupg \
         cmake git zip \
         python3-libusb1 \
@@ -53,14 +53,21 @@ RUN pip3 install -U \
     flake8-import-order \
     flake8-quotes \
     pytest-repeat \
-    pytest-rerunfailures 
+    pytest-rerunfailures \
+    catkin_pkg
 
-RUN apt install -y ros-humble-desktop
+RUN apt update
+ENV DEBIAN_FRONTEND=noninteractive
+#RUN apt install -y ros-galactic-desktop
+#RUN apt install -y ros-humble-desktop
+RUN apt install -y ros-rolling-desktop
 
 #  python3-colcon-common-extensions
-  
-WORKDIR /opt
 
+WORKDIR /opt/rosberrypy/microros-dev
+RUN colcon build --cmake-args -DBUILD_TESTING=OFF
+
+WORKDIR /opt
 RUN git clone --branch v4.4 --recursive https://github.com/espressif/esp-idf.git
 WORKDIR /opt/esp-idf
 RUN git submodule init
